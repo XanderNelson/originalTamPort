@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link rel="stylesheet" type="text/css" href="TAMindex.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="TAMindex.js"></script>
+        <link rel="shortcut icon" href="xnLogo.png" type="image/x-icon">
+        <link rel="icon" href="xnLogo.png" type="image/x-icon">
+        <style media="screen">
+        .mainPage
+        {
+          margin-top: 50px;
+        }
+        body
+        {
+          background-image: none;
+          background-color: white:
+        }
+        .centerContain
+        {
+          width: 60%;
+          margin-left: 20%;
+        }
+        .centerContain a
+        {
+          /* max-width: 200px; */
+          display: block;
+        }
+        .centerContain img
+        {
+          /* max-width: 400px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          overflow:hidden; */
+          width:320px;
+          height:320px;
+          border-radius: 10%;
+          object-fit: cover;
+          margin-bottom: 50px;
+        }
+        h5{
+          font-size: 90%;
+        }
+        @media screen and (max-width: 50em)
+        {
+          .centerContain
+          {
+            width:100%;
+            margin-left: 0%;
+          }
+        }
+        .lightbox
+        {
+          display: none;
+        	position: fixed;
+        	z-index: 999;
+        	width: 100%;
+        	height: 100%;
+        	text-align: center;
+        	top: 0;
+        	left: 0;
+        	background: rgba(0,0,0,0.8);
+        }
+        .lightbox img
+        {
+          	max-width: 90%;
+          	max-height: 80%;
+          	margin-top: 2%;
+        }
+        .lightbox:target
+        {
+        	outline: none;
+        	display: block;
+        }
+        </style>
+    <title>Xander Nelson</title>
+    </head>
+    <body>
+        <div id="canvas"></div>
+    <main>
+        <header>
+        <div id="topbar">
+          <a href="index.html"><h1>XANDER NELSON</h1></a>
+          <div id = "dropdown">
+            <button class="dropbtn">GENERAL WORK</button>
+            <div class="dropdown-content">
+              <!-- <a href= "http://creative.colorado.edu/~alne9358/web/webpage.html">WEB</a> -->
+              <a href= "FWD/index.html">FRONT END</a>
+              <a href= "formpage.html">FORM</a>
+              <a href = "imagepage.html">IMAGE</a>
+              <a href = "objectPage.html">OBJECT</a>
+              <a href = "soundpage.html">SOUND</a>
+              <a id="bottomdrop" href = "textpage.html">TEXT</a>
+              <div id = "socialmedia">
+              </div>
+            </div>
+          </div>
+        </div>
+        </header>
+        <div class="mainPage">
+            <h3>PROJECT ONE</h3>
+            <h4 class="centerStuffEdu">TABLEWARE SET</h4>
+            <h5 class="centerStuffEdu">This is a set of tableware that I designed. The 3D modelling was done in Rhinoceros. In it, I created each individual piece
+              arranged them to emulate real life scenarios. After, I brought them into Fusion 360, where I was able to apply textures such as wood, ceramic, steel, and glass.
+            </h5>
+            <div class="centerContain">
+              <div class="leftStuff">
+                <a href = "form2018/tablerender1.png" target="_blank"><img src = "form2018/tablerender1.png" alt="tablerender" class = "images"></a>
+                <a href = "form2018/details.jpg" target="_blank"><img src = "form2018/details.jpg" alt="proportion" class = "images"></a>
+                <a href = "form2018/surface.jpg" target="_blank"><img src = "form2018/surface.jpg" alt="proport" class = "images"></a>
+              </div>
+              <div class="rightStuff">
+                <a href = "form2018/tablerender2.png" target="_blank"><img src = "form2018/tablerender2.png" alt="propor" class = "images"></a>
+                <a href = "form2018/proportion.jpg" target="_blank"><img src = "form2018/proportion.jpg" alt="proporti" class = "images"></a>
+                <a href = "form2018/hero.jpg" target="_blank"><img src = "form2018/hero.jpg" alt="propor" class = "images"></a>
+              </div>
+            </div>
+            <h3>PROJECT TWO</h3>
+            <h4 class="centerStuffEdu">WEARABLE TECHNOLGY</h4>
+            <h5 class="centerStuffEdu">This is a set of wearable technology, designed to be used while hitting the slopes. Each button displays an aspect of skiing or snowboarding, such as elevation,
+             speed, or distance. Similar to the tableware, I modelled them in Rhino and brought them into Fusion 360 for a render. After, I used Photoshop to apply them
+           in a realistic setting.</h5>
+            <div class="centerContain">
+              <div class="leftStuff">
+                <a href = "form2018/gogglerender1.png" target="_blank"><img src = "form2018/gogglerender1.png" alt="proportion" class = "images"></a>
+                <a href = "form2018/goggles1.jpg" target="_blank"><img src = "form2018/goggles1.jpg" alt="proportion" class = "images"></a>
+              </div>
+              <div class="rightStuff">
+                <a href = "form2018/gogglerender2.png" target="_blank"><img src = "form2018/gogglerender2.png" alt="proportion" class = "images"></a>
+                <a href = "form2018/gogglesonperson.jpg" target="_blank"><img src = "form2018/gogglesonperson.jpg" alt="proport" class = "images"></a>
+              </div>
+              <a href = "form2018/goggles2.jpg" target="_blank"><img src = "form2018/goggles2.jpg" alt="proport" class = "images"></a>
+            </div>
+            <div class="lightbox">
+                <a href="#_" class="lightbox" id="img1"><img src = "form2018/details.jpg" alt="proportion"></a>
+                <a href="#_" class="lightbox" id="img2"><img src = "form2018/surface.jpg" alt="proportion"></a>
+                <a href="#_" class="lightbox" id="img3"><img src = "form2018/proportion.jpg" alt="proportion"></a>
+                <a href="#_" class="lightbox" id="img4"><img src = "form2018/hero.jpg" alt="proportion"></a>
+                <a href="#_" class="lightbox" id="img5"><img src = "form2018/goggles1.jpg" alt="proportion"></a>
+                <a href="#_" class="lightbox" id="img6"><img src = "form2018/gogglesonperson.jpg" alt="proportion"></a>
+                <a href="#_" class="lightbox" id="img7"><img src = "form2018/goggles2.jpg" alt="proportion"></a>
+            </div>
+        </div>
+    </main>
+    </body>
+</html>
